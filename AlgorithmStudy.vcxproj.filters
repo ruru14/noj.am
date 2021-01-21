@@ -18,31 +18,34 @@
     <ClCompile Include="AlgorithmStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14889.cpp">
+    <ClCompile Include="Solve\1003.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2847.cpp">
+    <ClCompile Include="Solve\1260.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14698.cpp">
+    <ClCompile Include="Solve\2178.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2776.cpp">
+    <ClCompile Include="Solve\2776.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1003.cpp">
+    <ClCompile Include="Solve\2847.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3182.cpp">
+    <ClCompile Include="Solve\3182.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14502.cpp">
+    <ClCompile Include="Solve\14502.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1260.cpp">
+    <ClCompile Include="Solve\14698.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2178.cpp">
+    <ClCompile Include="Solve\14889.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve\Template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
