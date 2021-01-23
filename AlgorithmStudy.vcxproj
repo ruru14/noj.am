@@ -150,6 +150,7 @@
     <ClCompile Include="Solve\2847.cpp" />
     <ClCompile Include="Solve\3182.cpp" />
     <ClCompile Include="Solve\Template.cpp" />
+    <ClCompile Include="Solve\Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmStudy.h" />

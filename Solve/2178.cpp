@@ -7,6 +7,7 @@ namespace nojam2178 {
 		scanf_s("%d %d", &height, &width);
 		getchar();
 
+		// Input
 		std::vector<int> map;
 		std::vector<std::vector<int>> adjList(height * width);
 		for (int i = 0; i < height; i++) {
@@ -20,7 +21,7 @@ namespace nojam2178 {
 				}
 			}
 		}
-
+		// Make Adjacency List
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
 				if (map[i * width + j] == 1) {
@@ -52,12 +53,32 @@ namespace nojam2178 {
 			}
 		}
 
+		// Length arr Init
+		std::vector<int> length;
+
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
-				for (int k = 0; k < adjList.at(i * width + j).size(); k++) {
-					printf("%d %d\n", i * width + j, adjList.at(i * width + j)[k]);
+				length.push_back(-1);
+			}
+		}
+		length[0] = 0;
+
+		// BFS
+		std::queue<int> queue;
+		int way = 0;
+
+		queue.push(0);
+		while (!queue.empty()) {
+			int current = queue.front();
+			queue.pop();
+			for (int i = 0; i < adjList.at(current).size(); i++) {
+				if (length[adjList.at(current)[i]] == -1) {
+					length[adjList.at(current)[i]] = length[current] + 1;
+					queue.push(adjList.at(current)[i]);
 				}
 			}
 		}
+
+		printf("%d", length[length.size() - 1] + 1);
 	}
 }
