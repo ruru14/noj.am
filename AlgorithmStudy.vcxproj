@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmStudy.cpp" />
+    <ClCompile Include="Solve\10026.cpp" />
     <ClCompile Include="Solve\1003.cpp" />
     <ClCompile Include="Solve\1260.cpp" />
     <ClCompile Include="Solve\14502.cpp" />
