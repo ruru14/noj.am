@@ -21,6 +21,7 @@ namespace nojam2178 {
 				}
 			}
 		}
+
 		// Make Adjacency List
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
@@ -28,25 +29,21 @@ namespace nojam2178 {
 					if (i != 0) { // Up
 						if (map[(i - 1) * width + j] == 1) {
 							adjList.at(i * width + j).push_back((i - 1) * width + j);
-							//adjList.at((i - 1) * width + j).push_back(i * width + j);
 						}
 					}
 					if (i != height - 1) { // Down
 						if (map[(i + 1) * width + j] == 1) {
 							adjList.at(i * width + j).push_back((i + 1) * width + j);
-							//adjList.at((i + 1) * width + j).push_back(i * width + j);
 						}
 					}
 					if (j != 0) { // Left
 						if (map[i * width + j - 1]) {
 							adjList.at(i * width + j).push_back(i * width + j - 1);
-							//adjList.at(i * width + j - 1).push_back(i * width + j);
 						}
 					}
 					if (j != width - 1) { // Right
 						if (map[i * width + j + 1]) {
 							adjList.at(i * width + j).push_back(i * width + j + 1);
-							//adjList.at(i * width + j + 1).push_back(i * width + j);
 						}
 					}
 				}
@@ -77,6 +74,10 @@ namespace nojam2178 {
 					queue.push(adjList.at(current)[i]);
 				}
 			}
+		}
+
+		for (int i = 0; i < length.size(); i++) {
+			printf("%d %d\n", i, length[i]);
 		}
 
 		printf("%d", length[length.size() - 1] + 1);

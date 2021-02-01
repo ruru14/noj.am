@@ -147,9 +147,11 @@
     <ClCompile Include="Solve\14698.cpp" />
     <ClCompile Include="Solve\14889.cpp" />
     <ClCompile Include="Solve\2178.cpp" />
+    <ClCompile Include="Solve\2606.cpp" />
     <ClCompile Include="Solve\2776.cpp" />
     <ClCompile Include="Solve\2847.cpp" />
     <ClCompile Include="Solve\3182.cpp" />
+    <ClCompile Include="Solve\9663.cpp" />
     <ClCompile Include="Solve\Template.cpp" />
     <ClCompile Include="Solve\Test.cpp" />
   </ItemGroup>

@@ -5,10 +5,12 @@ namespace nojam10026 {
 		// Input
 		int n;
 		int max = -1;
+		int maxAmbly = -1;
 		scanf_s("%d", &n);
 		getchar();
 
 		std::vector<int> image;
+		std::vector<int> imageAmbly;
 		std::vector<std::vector<int>> adjList(n * n);
 		for (int i = 0; i < n * n + n; i++) {
 			char temp = getchar();
@@ -18,12 +20,15 @@ namespace nojam10026 {
 			else {
 				if (temp == 'R') {
 					image.push_back(0);
+					imageAmbly.push_back(0);
 				}
 				else if (temp == 'G') {
 					image.push_back(1);
+					imageAmbly.push_back(0);
 				}
 				else if (temp == 'B') {
 					image.push_back(2);
+					imageAmbly.push_back(2);
 				}
 			}
 		}
@@ -49,6 +54,7 @@ namespace nojam10026 {
 		std::queue<int> queue;
 		std::vector<bool> bfsVisit(n * n);
 		std::vector<int> area(n * n);
+		std::vector<int> areaAmbly(n * n);
 		queue.push(0);
 
 		while (!queue.empty()) {
@@ -61,9 +67,6 @@ namespace nojam10026 {
 				for (int i = 0; i < adjList.at(current).size(); i++) {
 					if (!bfsVisit[adjList.at(current)[i]]) {
 						queue.push(adjList.at(current)[i]);
-						int tempA = (current % n == n - 1 ? image[current - 1] : -1);
-						//int tempA = (current % n == n - 1 ? 0 : image[current - 1]);
-						int tempB = (current < n ? -1 : image[current - n]);
 						if ((image[current] != (current % n == n - 1 ? image[current - 1] : -1))&
 							(image[current] != (current < n ? -1 : image[current - n]))) {
 							int areaLeft = (current % n == n - 1 ? area[current - 1] : 0);
@@ -73,20 +76,29 @@ namespace nojam10026 {
 								max = area[current];
 							}
 						}
+						if ((imageAmbly[current] != (current % n == n - 1 ? imageAmbly[current - 1] : -1)) &
+							(imageAmbly[current] != (current < n ? -1 : imageAmbly[current - n]))) {
+							int areaLeft = (current % n == n - 1 ? areaAmbly[current - 1] : 0);
+							int areaUpper = (current < n ? 0 : areaAmbly[current - n]);
+							areaAmbly[current] = (areaLeft > areaUpper ? areaLeft : areaUpper) + 1;
+							if (areaAmbly[current] > maxAmbly) {
+								maxAmbly = areaAmbly[current];
+							}
+						}
 					}
 				}
 			}
 		}
 
-		printf("%d", max + 1);
 
-		/*for (int i = 0; i < area.size(); i++) {
+		for (int i = 0; i < area.size(); i++) {
 			printf("%d", area[i]);
 			if (i % n == n - 1) {
 				printf("\n");
 			}
-		}*/
+		}
 
+		printf("\n%d %d", max + 1, maxAmbly + 1);
 
 
 		/*printf("\n");
