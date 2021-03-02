@@ -60,9 +60,78 @@
     <ClCompile Include="Solve\9663.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Solve\14936.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve\1753.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve\4485.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve\20046.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve\1759.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmStudy.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\1003.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\1260.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\2178.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\2606.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\Template.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\2776.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\2847.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\14936.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\3182.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\9663.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\10026.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\14502.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\14698.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\14889.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\1753.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\4485.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\20046.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve\1759.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

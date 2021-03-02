@@ -1,7 +1,5 @@
-#include "../AlgorithmStudy.h"
+#include "Template.h"
 
-namespace nojam_number_ {
-	static void solution() {
+void nojam_N_::solution() {
 
-	}
 }

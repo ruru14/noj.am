@@ -146,17 +146,40 @@
     <ClCompile Include="Solve\14502.cpp" />
     <ClCompile Include="Solve\14698.cpp" />
     <ClCompile Include="Solve\14889.cpp" />
+    <ClCompile Include="Solve\14936.cpp" />
+    <ClCompile Include="Solve\1753.cpp" />
+    <ClCompile Include="Solve\1759.cpp" />
+    <ClCompile Include="Solve\20046.cpp" />
     <ClCompile Include="Solve\2178.cpp" />
     <ClCompile Include="Solve\2606.cpp" />
     <ClCompile Include="Solve\2776.cpp" />
     <ClCompile Include="Solve\2847.cpp" />
     <ClCompile Include="Solve\3182.cpp" />
+    <ClCompile Include="Solve\4485.cpp" />
     <ClCompile Include="Solve\9663.cpp" />
     <ClCompile Include="Solve\Template.cpp" />
     <ClCompile Include="Solve\Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmStudy.h" />
+    <ClInclude Include="Solve\10026.h" />
+    <ClInclude Include="Solve\1003.h" />
+    <ClInclude Include="Solve\1260.h" />
+    <ClInclude Include="Solve\14502.h" />
+    <ClInclude Include="Solve\14698.h" />
+    <ClInclude Include="Solve\14889.h" />
+    <ClInclude Include="Solve\14936.h" />
+    <ClInclude Include="Solve\1753.h" />
+    <ClInclude Include="Solve\1759.h" />
+    <ClInclude Include="Solve\20046.h" />
+    <ClInclude Include="Solve\2178.h" />
+    <ClInclude Include="Solve\2606.h" />
+    <ClInclude Include="Solve\2776.h" />
+    <ClInclude Include="Solve\2847.h" />
+    <ClInclude Include="Solve\3182.h" />
+    <ClInclude Include="Solve\4485.h" />
+    <ClInclude Include="Solve\9663.h" />
+    <ClInclude Include="Solve\Template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
