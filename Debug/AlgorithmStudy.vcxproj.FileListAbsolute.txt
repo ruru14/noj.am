@@ -1,2 +1,3 @@
 C:\Users\ljw28\source\repos\AlgorithmStudy\Debug\AlgorithmStudy.exe
 C:\Users\ljw28\source\repos\AlgorithmStudy\Debug\AlgorithmStudy.pdb
+C:\Users\ljw28\source\repos\ruru14\noj.am\Debug\AlgorithmStudy.exe

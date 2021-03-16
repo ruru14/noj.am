@@ -4,7 +4,6 @@
 
 int main()
 {
-
 	nojam1759::solution();
 }
 

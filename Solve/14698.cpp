@@ -14,7 +14,7 @@ void nojam14698::solution() {
 			std::cin >> temp;
 			energies.push_back(temp);
 		}
-		// ©╘╠Б╠НаЖ ют╥б
+		// О©╫О©╫О©╫О©╫О©╫О©╫О©╫ О©╫т╥О©╫
 		temp = 1;
 
 		while (energies.size() != 1) {
