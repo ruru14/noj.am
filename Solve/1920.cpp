@@ -7,9 +7,9 @@ void nojam1920::solution()
 	int right;
 	int left;
 	int mid;
+	int index;
 	std::vector<int> arr;
 	scanf("%d", &size);
-	mid = size / 2;
 
 	for (int i = 0; i < size; i++) {
 		int tmp;
@@ -22,33 +22,31 @@ void nojam1920::solution()
 	scanf("%d", &test_case);
 
 	for (int i = 0; i < test_case; i++) {
+		index = -1;
 		left = 0;
 		right = size - 1;
 		int tmp;
 		scanf("%d", &tmp);
-		if (tmp >= arr[mid]) { // Start right
-			for (int i = right; i >= mid; i--) {
-				if (arr[i] == tmp) {
-					printf("1 1\n");
-					break;
-				}
-				if (arr[i] < tmp) {
-					printf("0 2\n");
-					break;
-				}
+		
+		while (left <= right) {
+			mid = (left + right) / 2;
+			if (arr[mid] == tmp) {
+				index = mid;
+				break;
+			}
+			else if (arr[mid] < tmp) {
+				left = mid + 1;
+			}
+			else {
+				right = mid - 1;
 			}
 		}
-		else { // Start left
-			for (int i = 0; i <= mid; i++) {
-				if (arr[i] == tmp) {
-					printf("1 3\n");
-					break;
-				}
-				if (arr[i] > tmp) {
-					printf("0 4\n");
-					break;
-				}
-			}
+
+		if (index == -1) {
+			printf("0\n");
+		}
+		else {
+			printf("1\n");
 		}
 	}
 }
