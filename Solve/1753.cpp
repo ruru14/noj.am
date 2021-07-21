@@ -42,18 +42,18 @@ void nojam1753::dijkstra(int start, std::vector<std::vector<std::pair<int, int>>
 	}
 }
 
-int nojam1753::get_next(int current, int vertex, std::vector<std::vector<std::pair<int, int>>> map, std::vector<bool> visit) {
-	int next = -1;
-	int min = 30000000;
-	for (int i = 0; i < map[current].size(); i++) {
-		if (!visit[map[current][i].first] && map[current][i].second < min) {
-			min = map[current][i].second;
-			next = map[current][i].first;
-		}
-	}
-
-	return next;
-}
+//int nojam1753::get_next(int current, int vertex, std::vector<std::vector<std::pair<int, int>>> map, std::vector<bool> visit) {
+//	int next = -1;
+//	int min = 30000000;
+//	for (int i = 0; i < map[current].size(); i++) {
+//		if (!visit[map[current][i].first] && map[current][i].second < min) {
+//			min = map[current][i].second;
+//			next = map[current][i].first;
+//		}
+//	}
+//
+//	return next;
+//}
 
 void nojam1753::solution()
 {
