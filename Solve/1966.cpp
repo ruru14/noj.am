@@ -36,21 +36,8 @@ void nojam1966::solution()
 					}
 				}
 			}
-			/*for (int i = 0; i < queue.size(); i++) {
-				printf("<%d %d>\n", queue[i].first, queue[i].second);
-			}*/
-			/*for (int i = 0; i < queue.size(); i++) {
-				if (queue.front().second < queue[i].second) {
-					auto tmp = queue.begin();
-					std::pair<int, int> page = std::make_pair(tmp->first, tmp->second);
-					queue.erase(tmp);
-					queue.push_back(page);
-					break;
-				}
-			}*/
 			if (queue.front().first == m) {
-				//printf("Elm : %d %d / ANS : %d\n", queue.front().first, queue.front().second, tmp);
-				printf("ans:%d\n", tmp);
+				printf("%d\n", tmp);
 				break;
 			}
 			queue.erase(queue.begin());
