@@ -2,17 +2,16 @@
 //
 //#include <bits/stdc++.h>
 #include "Solve/18111.cpp"
-#include "Solve/1212.cpp"
+#include "Solve/7576.cpp"
 using namespace std;
 
 int main()
 {
-
 	/*
 	std::cin.tie(NULL);
 	std::ios::sync_with_stdio(false);
 	*/
-	nojam1212::solution();
+	nojam7576::solution();
 	//nojam18111::solution();
 }
 

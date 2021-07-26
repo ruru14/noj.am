@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+Debug/AlgorithmStudy.pdb
+Debug/AlgorithmStudy.pdb
+*.pdb
