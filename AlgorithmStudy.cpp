@@ -2,7 +2,6 @@
 //
 //#include <bits/stdc++.h>
 #include "Solve/18111.cpp"
-#include "Solve/7576.cpp"
 using namespace std;
 
 int main()
@@ -11,8 +10,7 @@ int main()
 	std::cin.tie(NULL);
 	std::ios::sync_with_stdio(false);
 	*/
-	nojam7576::solution();
-	//nojam18111::solution();
+	nojam18111::solution();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

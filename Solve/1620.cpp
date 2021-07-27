@@ -1,45 +1,33 @@
 #include "1620.h"
 
+std::unordered_map<std::string, int> dict;
+std::string dict_rev[100001];
+
 void nojam1620::solution()
 {
+	std::ios::sync_with_stdio(false);
+	std::cin.tie(NULL);
 	int n, m;
-	scanf("%d %d", &n, &m);
-	scanf("%d");
-
-	//std::map<std::string, std::string> dict;
-	//std::map<std::string, std::string> dict_rev;
-	//std::unordered_map<std::string, int> dict;
-
-	std::vector<std::pair<std::string, int>> dict;
+	std::cin >> n >> m;
 
 	for (int i = 0; i < n; i++) {
 		std::string tmp;
-		std::getline(std::cin, tmp);
-		dict.push_back(std::make_pair(tmp, i + 1));
-		//dict.insert(std::make_pair(tmp, i + 1));
+		std::cin >> tmp;
+		dict.insert(std::make_pair(tmp, i + 1));
+		dict_rev[i] = tmp;
 	}
-
-	/*for (auto i : dict) {
-		printf("%s %s\n", i.first.c_str(), i.second.c_str());
-	}*/
 
 	for (int i = 0; i < m; i++) {
 		std::string tmp;
-		std::getline(std::cin, tmp);
+		std::cin >> tmp;
 		if (tmp[0] >= 'A') { // Name
-			for (auto i : dict) {
-				if (i.first == tmp) {
-					printf("%d\n", i.second);
-				}
-			}
+			auto val = dict.find(tmp);
+			std::cout << val->second << "\n";
 		}
 		else {
 			int index = std::stoi(tmp);
-			for (auto i : dict) {
-				if (i.second == index) {
-					printf("%s\n", i.first.c_str());
-				}
-			}
+			index--;
+			std::cout << dict_rev[index] << "\n";
 		}
 	}
 }
