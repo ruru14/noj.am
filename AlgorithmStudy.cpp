@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-
 	//printf("%d", 0 != 1);
 	//printf("%d", c);
 	//printf("%s", &a);
