@@ -1,19 +1,19 @@
 ﻿// AlgorithmStudy.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 //#include <bits/stdc++.h>
-#include "Solve/1541.cpp"
+#include "Solve/11653.cpp"
 using namespace std;
 //using namespace nojam2630;
 
 int main()
 {
-	printf("%d", abs(-1));
+
 	/*
 	std::cin.tie(NULL);
 	std::ios::sync_with_stdio(false);
 	*/
 
-	//nojam1541::solution();
+	nojam11653::solution();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
