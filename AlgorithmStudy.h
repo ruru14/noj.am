@@ -15,5 +15,4 @@
 #include <cstring>
 #include <bitset>
 
-
 #endif
