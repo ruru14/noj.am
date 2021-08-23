@@ -1,7 +1,7 @@
 ﻿// AlgorithmStudy.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 //#include <bits/stdc++.h>
-#include "Solve/3053.cpp"
+#include "Solve/1002.cpp"
 #include "Libs.cpp"
 using namespace std;
 //using namespace nojam2630;
@@ -17,7 +17,7 @@ int main()
 	std::ios::sync_with_stdio(false);
 	*/
 
-	nojam3053::solution();
+	nojam1002::solution();
 	//Libs::solution();
 }
 
