@@ -1,8 +1,1 @@
-﻿  AlgorithmStudy.cpp
-C:\Users\ljw28\source\repos\ruru14\noj.am\Solve\1759.cpp(35,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\ljw28\source\repos\ruru14\noj.am\Solve\1759.cpp(51,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  1759.cpp
-C:\Users\ljw28\source\repos\ruru14\noj.am\Solve\1759.cpp(35,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\ljw28\source\repos\ruru14\noj.am\Solve\1759.cpp(51,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  코드를 생성하고 있습니다...
-  AlgorithmStudy.vcxproj -> C:\Users\ljw28\Source\Repos\ruru14\noj.am\Debug\AlgorithmStudy.exe
+﻿  AlgorithmStudy.vcxproj -> C:\Git\noj.am\Debug\AlgorithmStudy.exe

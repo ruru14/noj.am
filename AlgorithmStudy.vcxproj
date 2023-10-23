@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -159,6 +159,156 @@
     <ClCompile Include="Solve\9663.cpp" />
     <ClCompile Include="Solve\Template.cpp" />
     <ClCompile Include="Solve\Test.cpp" />
+    <ClCompile Include="Solve_old\1002.cpp" />
+    <ClCompile Include="Solve_old\10026.cpp" />
+    <ClCompile Include="Solve_old\1003.cpp" />
+    <ClCompile Include="Solve_old\1009.cpp" />
+    <ClCompile Include="Solve_old\1011.cpp" />
+    <ClCompile Include="Solve_old\1012.cpp" />
+    <ClCompile Include="Solve_old\1018.cpp" />
+    <ClCompile Include="Solve_old\10211.cpp" />
+    <ClCompile Include="Solve_old\10250.cpp" />
+    <ClCompile Include="Solve_old\1037.cpp" />
+    <ClCompile Include="Solve_old\10773.cpp" />
+    <ClCompile Include="Solve_old\10814.cpp" />
+    <ClCompile Include="Solve_old\10815.cpp" />
+    <ClCompile Include="Solve_old\10816.cpp" />
+    <ClCompile Include="Solve_old\10826.cpp" />
+    <ClCompile Include="Solve_old\10828.cpp" />
+    <ClCompile Include="Solve_old\10845.cpp" />
+    <ClCompile Include="Solve_old\1085.cpp" />
+    <ClCompile Include="Solve_old\10866.cpp" />
+    <ClCompile Include="Solve_old\10989.cpp" />
+    <ClCompile Include="Solve_old\10990.cpp" />
+    <ClCompile Include="Solve_old\10991.cpp" />
+    <ClCompile Include="Solve_old\10992.cpp" />
+    <ClCompile Include="Solve_old\10994.cpp" />
+    <ClCompile Include="Solve_old\10995.cpp" />
+    <ClCompile Include="Solve_old\10996.cpp" />
+    <ClCompile Include="Solve_old\10997.cpp" />
+    <ClCompile Include="Solve_old\10999.cpp" />
+    <ClCompile Include="Solve_old\11003.cpp" />
+    <ClCompile Include="Solve_old\11047.cpp" />
+    <ClCompile Include="Solve_old\11050.cpp" />
+    <ClCompile Include="Solve_old\1107.cpp" />
+    <ClCompile Include="Solve_old\11279.cpp" />
+    <ClCompile Include="Solve_old\11286.cpp" />
+    <ClCompile Include="Solve_old\11399.cpp" />
+    <ClCompile Include="Solve_old\11651.cpp" />
+    <ClCompile Include="Solve_old\11653.cpp" />
+    <ClCompile Include="Solve_old\11658.cpp" />
+    <ClCompile Include="Solve_old\11659.cpp" />
+    <ClCompile Include="Solve_old\11660.cpp" />
+    <ClCompile Include="Solve_old\11723.cpp" />
+    <ClCompile Include="Solve_old\11724.cpp" />
+    <ClCompile Include="Solve_old\11726.cpp" />
+    <ClCompile Include="Solve_old\11727.cpp" />
+    <ClCompile Include="Solve_old\11729.cpp" />
+    <ClCompile Include="Solve_old\1181.cpp" />
+    <ClCompile Include="Solve_old\11866.cpp" />
+    <ClCompile Include="Solve_old\1212.cpp" />
+    <ClCompile Include="Solve_old\1259.cpp" />
+    <ClCompile Include="Solve_old\1260.cpp" />
+    <ClCompile Include="Solve_old\12813.cpp" />
+    <ClCompile Include="Solve_old\13015.cpp" />
+    <ClCompile Include="Solve_old\13545.cpp" />
+    <ClCompile Include="Solve_old\1406.cpp" />
+    <ClCompile Include="Solve_old\1436.cpp" />
+    <ClCompile Include="Solve_old\14502.cpp" />
+    <ClCompile Include="Solve_old\1463.cpp" />
+    <ClCompile Include="Solve_old\14698.cpp" />
+    <ClCompile Include="Solve_old\14889.cpp" />
+    <ClCompile Include="Solve_old\14936.cpp" />
+    <ClCompile Include="Solve_old\1541.cpp" />
+    <ClCompile Include="Solve_old\15649.cpp" />
+    <ClCompile Include="Solve_old\15650.cpp" />
+    <ClCompile Include="Solve_old\15651.cpp" />
+    <ClCompile Include="Solve_old\15652.cpp" />
+    <ClCompile Include="Solve_old\15829.cpp" />
+    <ClCompile Include="Solve_old\1620.cpp" />
+    <ClCompile Include="Solve_old\1654.cpp" />
+    <ClCompile Include="Solve_old\1676.cpp" />
+    <ClCompile Include="Solve_old\1697.cpp" />
+    <ClCompile Include="Solve_old\16975.cpp" />
+    <ClCompile Include="Solve_old\17219.cpp" />
+    <ClCompile Include="Solve_old\17390.cpp" />
+    <ClCompile Include="Solve_old\1753.cpp" />
+    <ClCompile Include="Solve_old\1759.cpp" />
+    <ClCompile Include="Solve_old\17626.cpp" />
+    <ClCompile Include="Solve_old\1764.cpp" />
+    <ClCompile Include="Solve_old\1780.cpp" />
+    <ClCompile Include="Solve_old\18111.cpp" />
+    <ClCompile Include="Solve_old\18352.cpp" />
+    <ClCompile Include="Solve_old\1874.cpp" />
+    <ClCompile Include="Solve_old\18870.cpp" />
+    <ClCompile Include="Solve_old\1916.cpp" />
+    <ClCompile Include="Solve_old\1920.cpp" />
+    <ClCompile Include="Solve_old\1927.cpp" />
+    <ClCompile Include="Solve_old\1929.cpp" />
+    <ClCompile Include="Solve_old\1931.cpp" />
+    <ClCompile Include="Solve_old\1934.cpp" />
+    <ClCompile Include="Solve_old\1966.cpp" />
+    <ClCompile Include="Solve_old\1992.cpp" />
+    <ClCompile Include="Solve_old\20046.cpp" />
+    <ClCompile Include="Solve_old\2042.cpp" />
+    <ClCompile Include="Solve_old\20925.cpp" />
+    <ClCompile Include="Solve_old\2108.cpp" />
+    <ClCompile Include="Solve_old\2164.cpp" />
+    <ClCompile Include="Solve_old\2167.cpp" />
+    <ClCompile Include="Solve_old\2178.cpp" />
+    <ClCompile Include="Solve_old\2231.cpp" />
+    <ClCompile Include="Solve_old\2292.cpp" />
+    <ClCompile Include="Solve_old\2309.cpp" />
+    <ClCompile Include="Solve_old\2442.cpp" />
+    <ClCompile Include="Solve_old\2443.cpp" />
+    <ClCompile Include="Solve_old\2444.cpp" />
+    <ClCompile Include="Solve_old\2445.cpp" />
+    <ClCompile Include="Solve_old\2446.cpp" />
+    <ClCompile Include="Solve_old\2447.cpp" />
+    <ClCompile Include="Solve_old\2448.cpp" />
+    <ClCompile Include="Solve_old\2475.cpp" />
+    <ClCompile Include="Solve_old\2522.cpp" />
+    <ClCompile Include="Solve_old\2523.cpp" />
+    <ClCompile Include="Solve_old\2559.cpp" />
+    <ClCompile Include="Solve_old\2579.cpp" />
+    <ClCompile Include="Solve_old\2606.cpp" />
+    <ClCompile Include="Solve_old\2609.cpp" />
+    <ClCompile Include="Solve_old\2630.cpp" />
+    <ClCompile Include="Solve_old\2667.cpp" />
+    <ClCompile Include="Solve_old\2747.cpp" />
+    <ClCompile Include="Solve_old\2749.cpp" />
+    <ClCompile Include="Solve_old\2751.cpp" />
+    <ClCompile Include="Solve_old\2775.cpp" />
+    <ClCompile Include="Solve_old\2776.cpp" />
+    <ClCompile Include="Solve_old\2798.cpp" />
+    <ClCompile Include="Solve_old\2805.cpp" />
+    <ClCompile Include="Solve_old\2847.cpp" />
+    <ClCompile Include="Solve_old\2869.cpp" />
+    <ClCompile Include="Solve_old\2914.cpp" />
+    <ClCompile Include="Solve_old\2941.cpp" />
+    <ClCompile Include="Solve_old\3009.cpp" />
+    <ClCompile Include="Solve_old\3046.cpp" />
+    <ClCompile Include="Solve_old\3053.cpp" />
+    <ClCompile Include="Solve_old\3182.cpp" />
+    <ClCompile Include="Solve_old\4153.cpp" />
+    <ClCompile Include="Solve_old\4485.cpp" />
+    <ClCompile Include="Solve_old\4948.cpp" />
+    <ClCompile Include="Solve_old\4949.cpp" />
+    <ClCompile Include="Solve_old\5086.cpp" />
+    <ClCompile Include="Solve_old\5525.cpp" />
+    <ClCompile Include="Solve_old\6588.cpp" />
+    <ClCompile Include="Solve_old\7568.cpp" />
+    <ClCompile Include="Solve_old\7576.cpp" />
+    <ClCompile Include="Solve_old\9012.cpp" />
+    <ClCompile Include="Solve_old\9020.cpp" />
+    <ClCompile Include="Solve_old\9095.cpp" />
+    <ClCompile Include="Solve_old\9184.cpp" />
+    <ClCompile Include="Solve_old\9461.cpp" />
+    <ClCompile Include="Solve_old\9471.cpp" />
+    <ClCompile Include="Solve_old\9527.cpp" />
+    <ClCompile Include="Solve_old\9663.cpp" />
+    <ClCompile Include="Solve_old\Template.cpp" />
+    <ClCompile Include="Solve_old\Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmStudy.h" />
@@ -180,6 +330,155 @@
     <ClInclude Include="Solve\4485.h" />
     <ClInclude Include="Solve\9663.h" />
     <ClInclude Include="Solve\Template.h" />
+    <ClInclude Include="Solve_old\1002.h" />
+    <ClInclude Include="Solve_old\10026.h" />
+    <ClInclude Include="Solve_old\1003.h" />
+    <ClInclude Include="Solve_old\1009.h" />
+    <ClInclude Include="Solve_old\1011.h" />
+    <ClInclude Include="Solve_old\1012.h" />
+    <ClInclude Include="Solve_old\1018.h" />
+    <ClInclude Include="Solve_old\10211.h" />
+    <ClInclude Include="Solve_old\10250.h" />
+    <ClInclude Include="Solve_old\1037.h" />
+    <ClInclude Include="Solve_old\10773.h" />
+    <ClInclude Include="Solve_old\10814.h" />
+    <ClInclude Include="Solve_old\10815.h" />
+    <ClInclude Include="Solve_old\10816.h" />
+    <ClInclude Include="Solve_old\10826.h" />
+    <ClInclude Include="Solve_old\10828.h" />
+    <ClInclude Include="Solve_old\10845.h" />
+    <ClInclude Include="Solve_old\1085.h" />
+    <ClInclude Include="Solve_old\10866.h" />
+    <ClInclude Include="Solve_old\10989.h" />
+    <ClInclude Include="Solve_old\10990.h" />
+    <ClInclude Include="Solve_old\10991.h" />
+    <ClInclude Include="Solve_old\10992.h" />
+    <ClInclude Include="Solve_old\10994.h" />
+    <ClInclude Include="Solve_old\10995.h" />
+    <ClInclude Include="Solve_old\10996.h" />
+    <ClInclude Include="Solve_old\10997.h" />
+    <ClInclude Include="Solve_old\10999.h" />
+    <ClInclude Include="Solve_old\11003.h" />
+    <ClInclude Include="Solve_old\11047.h" />
+    <ClInclude Include="Solve_old\11050.h" />
+    <ClInclude Include="Solve_old\1107.h" />
+    <ClInclude Include="Solve_old\11279.h" />
+    <ClInclude Include="Solve_old\11286.h" />
+    <ClInclude Include="Solve_old\11399.h" />
+    <ClInclude Include="Solve_old\11651.h" />
+    <ClInclude Include="Solve_old\11653.h" />
+    <ClInclude Include="Solve_old\11658.h" />
+    <ClInclude Include="Solve_old\11659.h" />
+    <ClInclude Include="Solve_old\11660.h" />
+    <ClInclude Include="Solve_old\11723.h" />
+    <ClInclude Include="Solve_old\11724.h" />
+    <ClInclude Include="Solve_old\11726.h" />
+    <ClInclude Include="Solve_old\11727.h" />
+    <ClInclude Include="Solve_old\11729.h" />
+    <ClInclude Include="Solve_old\1181.h" />
+    <ClInclude Include="Solve_old\11866.h" />
+    <ClInclude Include="Solve_old\1212.h" />
+    <ClInclude Include="Solve_old\1259.h" />
+    <ClInclude Include="Solve_old\1260.h" />
+    <ClInclude Include="Solve_old\12813.h" />
+    <ClInclude Include="Solve_old\13015.h" />
+    <ClInclude Include="Solve_old\13545.h" />
+    <ClInclude Include="Solve_old\1406.h" />
+    <ClInclude Include="Solve_old\1436.h" />
+    <ClInclude Include="Solve_old\14502.h" />
+    <ClInclude Include="Solve_old\1463.h" />
+    <ClInclude Include="Solve_old\14698.h" />
+    <ClInclude Include="Solve_old\14889.h" />
+    <ClInclude Include="Solve_old\14936.h" />
+    <ClInclude Include="Solve_old\1541.h" />
+    <ClInclude Include="Solve_old\15649.h" />
+    <ClInclude Include="Solve_old\15650.h" />
+    <ClInclude Include="Solve_old\15651.h" />
+    <ClInclude Include="Solve_old\15652.h" />
+    <ClInclude Include="Solve_old\15829.h" />
+    <ClInclude Include="Solve_old\1620.h" />
+    <ClInclude Include="Solve_old\1654.h" />
+    <ClInclude Include="Solve_old\1676.h" />
+    <ClInclude Include="Solve_old\1697.h" />
+    <ClInclude Include="Solve_old\16975.h" />
+    <ClInclude Include="Solve_old\17219.h" />
+    <ClInclude Include="Solve_old\17390.h" />
+    <ClInclude Include="Solve_old\1753.h" />
+    <ClInclude Include="Solve_old\1759.h" />
+    <ClInclude Include="Solve_old\17626.h" />
+    <ClInclude Include="Solve_old\1764.h" />
+    <ClInclude Include="Solve_old\1780.h" />
+    <ClInclude Include="Solve_old\18111.h" />
+    <ClInclude Include="Solve_old\18352.h" />
+    <ClInclude Include="Solve_old\1874.h" />
+    <ClInclude Include="Solve_old\18870.h" />
+    <ClInclude Include="Solve_old\1916.h" />
+    <ClInclude Include="Solve_old\1920.h" />
+    <ClInclude Include="Solve_old\1927.h" />
+    <ClInclude Include="Solve_old\1929.h" />
+    <ClInclude Include="Solve_old\1931.h" />
+    <ClInclude Include="Solve_old\1934.h" />
+    <ClInclude Include="Solve_old\1966.h" />
+    <ClInclude Include="Solve_old\1992.h" />
+    <ClInclude Include="Solve_old\20046.h" />
+    <ClInclude Include="Solve_old\2042.h" />
+    <ClInclude Include="Solve_old\20925.h" />
+    <ClInclude Include="Solve_old\2108.h" />
+    <ClInclude Include="Solve_old\2164.h" />
+    <ClInclude Include="Solve_old\2167.h" />
+    <ClInclude Include="Solve_old\2178.h" />
+    <ClInclude Include="Solve_old\2231.h" />
+    <ClInclude Include="Solve_old\2292.h" />
+    <ClInclude Include="Solve_old\2309.h" />
+    <ClInclude Include="Solve_old\2442.h" />
+    <ClInclude Include="Solve_old\2443.h" />
+    <ClInclude Include="Solve_old\2444.h" />
+    <ClInclude Include="Solve_old\2445.h" />
+    <ClInclude Include="Solve_old\2446.h" />
+    <ClInclude Include="Solve_old\2447.h" />
+    <ClInclude Include="Solve_old\2448.h" />
+    <ClInclude Include="Solve_old\2475.h" />
+    <ClInclude Include="Solve_old\2522.h" />
+    <ClInclude Include="Solve_old\2523.h" />
+    <ClInclude Include="Solve_old\2559.h" />
+    <ClInclude Include="Solve_old\2579.h" />
+    <ClInclude Include="Solve_old\2606.h" />
+    <ClInclude Include="Solve_old\2609.h" />
+    <ClInclude Include="Solve_old\2630.h" />
+    <ClInclude Include="Solve_old\2667.h" />
+    <ClInclude Include="Solve_old\2747.h" />
+    <ClInclude Include="Solve_old\2749.h" />
+    <ClInclude Include="Solve_old\2751.h" />
+    <ClInclude Include="Solve_old\2775.h" />
+    <ClInclude Include="Solve_old\2776.h" />
+    <ClInclude Include="Solve_old\2798.h" />
+    <ClInclude Include="Solve_old\2805.h" />
+    <ClInclude Include="Solve_old\2847.h" />
+    <ClInclude Include="Solve_old\2869.h" />
+    <ClInclude Include="Solve_old\2914.h" />
+    <ClInclude Include="Solve_old\2941.h" />
+    <ClInclude Include="Solve_old\3009.h" />
+    <ClInclude Include="Solve_old\3046.h" />
+    <ClInclude Include="Solve_old\3053.h" />
+    <ClInclude Include="Solve_old\3182.h" />
+    <ClInclude Include="Solve_old\4153.h" />
+    <ClInclude Include="Solve_old\4485.h" />
+    <ClInclude Include="Solve_old\4948.h" />
+    <ClInclude Include="Solve_old\4949.h" />
+    <ClInclude Include="Solve_old\5086.h" />
+    <ClInclude Include="Solve_old\5525.h" />
+    <ClInclude Include="Solve_old\6588.h" />
+    <ClInclude Include="Solve_old\7568.h" />
+    <ClInclude Include="Solve_old\7576.h" />
+    <ClInclude Include="Solve_old\9012.h" />
+    <ClInclude Include="Solve_old\9020.h" />
+    <ClInclude Include="Solve_old\9095.h" />
+    <ClInclude Include="Solve_old\9184.h" />
+    <ClInclude Include="Solve_old\9461.h" />
+    <ClInclude Include="Solve_old\9471.h" />
+    <ClInclude Include="Solve_old\9527.h" />
+    <ClInclude Include="Solve_old\9663.h" />
+    <ClInclude Include="Solve_old\Template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
