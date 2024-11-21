@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\noj.am\\boj.kr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D665E51-4351-4780-A29F-277D47147651}|noj.am.27323\\noj.am.27323.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.27323\\noj.am.27323.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D665E51-4351-4780-A29F-277D47147651}|noj.am.27323\\noj.am.27323.vcxproj|solutionrelative:noj.am.27323\\noj.am.27323.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5892F3-86BA-4669-8B85-93D6FE3ADD8F}|noj.am.25314\\noj.am.25314.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.25314\\noj.am.25314.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F5892F3-86BA-4669-8B85-93D6FE3ADD8F}|noj.am.25314\\noj.am.25314.vcxproj|solutionrelative:noj.am.25314\\noj.am.25314.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0F09684-7FB0-4C0C-A081-FA6F70F1130E}|noj.am.25304\\noj.am.25304.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.25304\\noj.am.25304.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0F09684-7FB0-4C0C-A081-FA6F70F1130E}|noj.am.25304\\noj.am.25304.vcxproj|solutionrelative:noj.am.25304\\noj.am.25304.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB4E416-A10F-4D45-92EE-3ABACF0CC0C6}|noj.am.25206\\noj.am.25206.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.25206\\noj.am.25206.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EB4E416-A10F-4D45-92EE-3ABACF0CC0C6}|noj.am.25206\\noj.am.25206.vcxproj|solutionrelative:noj.am.25206\\noj.am.25206.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F00C50-74ED-48DF-BC40-2F57767D7F9B}|noj.am.21736\\noj.am.21736.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.21736\\noj.am.21736.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F00C50-74ED-48DF-BC40-2F57767D7F9B}|noj.am.21736\\noj.am.21736.vcxproj|solutionrelative:noj.am.21736\\noj.am.21736.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C937BA-6912-401B-A12D-30D1BA41D741}|noj.am.15686\\noj.am.15686.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.15686\\noj.am.15686.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21C937BA-6912-401B-A12D-30D1BA41D741}|noj.am.15686\\noj.am.15686.vcxproj|solutionrelative:noj.am.15686\\noj.am.15686.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04616B7A-4864-4048-814C-F2289C6DF2A8}|noj.am.14940\\noj.am.14940.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.14940\\noj.am.14940.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04616B7A-4864-4048-814C-F2289C6DF2A8}|noj.am.14940\\noj.am.14940.vcxproj|solutionrelative:noj.am.14940\\noj.am.14940.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4D9C12-371A-4B04-BFF7-2ABED8CD4B94}|noj.am.14888\\noj.am.14888.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.14888\\noj.am.14888.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D4D9C12-371A-4B04-BFF7-2ABED8CD4B94}|noj.am.14888\\noj.am.14888.vcxproj|solutionrelative:noj.am.14888\\noj.am.14888.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AA9F1F-8FE9-4047-BD6C-EE7065D2F72F}|noj.am.14503\\noj.am.14503.vcxproj|C:\\Git\\noj.am\\boj.kr\\noj.am.14503\\noj.am.14503.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09AA9F1F-8FE9-4047-BD6C-EE7065D2F72F}|noj.am.14503\\noj.am.14503.vcxproj|solutionrelative:noj.am.14503\\noj.am.14503.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 500,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "noj.am.27323.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.27323\\noj.am.27323.cpp",
+              "RelativeDocumentMoniker": "noj.am.27323\\noj.am.27323.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.27323\\noj.am.27323.cpp",
+              "RelativeToolTip": "noj.am.27323\\noj.am.27323.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:49:50.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "noj.am.25314.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.25314\\noj.am.25314.cpp",
+              "RelativeDocumentMoniker": "noj.am.25314\\noj.am.25314.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.25314\\noj.am.25314.cpp",
+              "RelativeToolTip": "noj.am.25314\\noj.am.25314.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:49:35.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "noj.am.25304.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.25304\\noj.am.25304.cpp",
+              "RelativeDocumentMoniker": "noj.am.25304\\noj.am.25304.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.25304\\noj.am.25304.cpp",
+              "RelativeToolTip": "noj.am.25304\\noj.am.25304.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:49:25.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "noj.am.25206.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.25206\\noj.am.25206.cpp",
+              "RelativeDocumentMoniker": "noj.am.25206\\noj.am.25206.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.25206\\noj.am.25206.cpp",
+              "RelativeToolTip": "noj.am.25206\\noj.am.25206.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:49:14.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "noj.am.21736.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.21736\\noj.am.21736.cpp",
+              "RelativeDocumentMoniker": "noj.am.21736\\noj.am.21736.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.21736\\noj.am.21736.cpp",
+              "RelativeToolTip": "noj.am.21736\\noj.am.21736.cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:49:00.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "noj.am.15686.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.15686\\noj.am.15686.cpp",
+              "RelativeDocumentMoniker": "noj.am.15686\\noj.am.15686.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.15686\\noj.am.15686.cpp",
+              "RelativeToolTip": "noj.am.15686\\noj.am.15686.cpp",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:48:47.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "noj.am.14940.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.14940\\noj.am.14940.cpp",
+              "RelativeDocumentMoniker": "noj.am.14940\\noj.am.14940.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.14940\\noj.am.14940.cpp",
+              "RelativeToolTip": "noj.am.14940\\noj.am.14940.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:48:32.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "noj.am.14888.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.14888\\noj.am.14888.cpp",
+              "RelativeDocumentMoniker": "noj.am.14888\\noj.am.14888.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.14888\\noj.am.14888.cpp",
+              "RelativeToolTip": "noj.am.14888\\noj.am.14888.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:48:20.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "noj.am.14503.cpp",
+              "DocumentMoniker": "C:\\Git\\noj.am\\boj.kr\\noj.am.14503\\noj.am.14503.cpp",
+              "RelativeDocumentMoniker": "noj.am.14503\\noj.am.14503.cpp",
+              "ToolTip": "C:\\Git\\noj.am\\boj.kr\\noj.am.14503\\noj.am.14503.cpp",
+              "RelativeToolTip": "noj.am.14503\\noj.am.14503.cpp",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T05:48:02.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 387,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
