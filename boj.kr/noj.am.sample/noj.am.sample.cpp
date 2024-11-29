@@ -2,15 +2,19 @@
 //
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-	int foo, bar;
+	string foo = "asdf";
 
-	while (cin >> foo >> bar) {
-		cout << bar / (foo + 1) << "\n";
+	string::iterator bar = foo.end() - 1;
+	for (auto i = foo.begin(); i != foo.end(); i++) {
+		if (i == bar)cout << "END!";
+		cout << *i << "\n";
+
 	}
 }
 

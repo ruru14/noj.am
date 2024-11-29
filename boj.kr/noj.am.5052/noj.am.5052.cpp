@@ -37,17 +37,18 @@ int main()
 
 			Trie* curNode = trie;
 
-			while (1) {
-				if (num.empty()) {
-					curNode->finish = true;
-					break;
-				}
-				int curChar = *num.begin() - '0';
-				num.erase(num.begin());
+			string::iterator foo = num.end() - 1;
+
+			for (auto i = num.begin(); i != num.end(); i++) {
+				int curChar = *i - '0';
 				if (curNode->next[curChar] == nullptr) {
 					curNode->next[curChar] = new Trie();
 				}
 				curNode = curNode->next[curChar];
+
+				if (i == foo) {
+					curNode->finish = true;
+				}
 			}
 		}
 
