@@ -420,3 +420,6 @@ FodyWeavers.xsd
 *.out
 *.app
 *.pdb
+
+# Sample code
+/noj.am.sample/*
