@@ -422,4 +422,4 @@ FodyWeavers.xsd
 *.pdb
 
 # Sample code
-/noj.am.sample/*
+boj.kr/noj.am.sample/*.*
