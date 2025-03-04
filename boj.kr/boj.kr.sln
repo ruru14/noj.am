@@ -251,6 +251,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noj.am.1167", "noj.am.1167\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noj.am.1918", "noj.am.1918\noj.am.1918.vcxproj", "{B7FD95CA-3B08-4AC5-A116-F87D94D62346}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noj.am.11444", "noj.am.11444\noj.am.11444.vcxproj", "{A217DA33-B431-452B-ADA7-18E5E754011F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1251,6 +1253,14 @@ Global
 		{B7FD95CA-3B08-4AC5-A116-F87D94D62346}.Release|x64.Build.0 = Release|x64
 		{B7FD95CA-3B08-4AC5-A116-F87D94D62346}.Release|x86.ActiveCfg = Release|Win32
 		{B7FD95CA-3B08-4AC5-A116-F87D94D62346}.Release|x86.Build.0 = Release|Win32
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Debug|x64.ActiveCfg = Debug|x64
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Debug|x64.Build.0 = Debug|x64
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Debug|x86.Build.0 = Debug|Win32
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Release|x64.ActiveCfg = Release|x64
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Release|x64.Build.0 = Release|x64
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Release|x86.ActiveCfg = Release|Win32
+		{A217DA33-B431-452B-ADA7-18E5E754011F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
