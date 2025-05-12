@@ -2,33 +2,28 @@
 //
 
 #include <iostream>
-#include <utility>
 #include <vector>
 
 using namespace std;
 
-int w[101];
-int v[101];
-int dp[101][100001];
-
 int main() {
+    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     int n, k;
     cin >> n >> k;
+    vector<long long> weight(n), value(n);
+    vector<long long> dp(k + 1, 0);
 
-    for (int i = 1; i < n + 1; i++) {
-        cin >> w[i] >> v[i];
+    for (int i = 0; i < n; i++) {
+        cin >> weight[i] >> value[i];
     }
 
-    for (int i = 1; i < n + 1; i++) {
-        for (int j = 1; j < k + 1; j++) {
-            if (j - w[i] >= 0) {
-                dp[i][j] = max(dp[i - 1][j], v[i] + dp[i - 1][j - w[i]]);
-            } else {
-                dp[i][j] = dp[i - 1][j];
-            }
+    for (int item = 0; item < n; item++) {
+        for (int c = k; c >= weight[item]; c--) {
+            dp[c] = max(dp[c], dp[c - weight[item]] + value[item]);
         }
     }
-    cout << dp[n][k];
+
+    cout << dp[k];
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
