@@ -6,31 +6,34 @@
 
 using namespace std;
 
-int main()
-{
-    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
     int n, s;
-    int st = 0, ed = 0;
     cin >> n >> s;
-    vector<int> arr(n + 1, 0);
-
-    for (int i = 0; i < n; i++) cin >> arr[i];
-
-    int sum = arr[st];
-    int size = n + 1;
-
-    while (ed < n) {
-        if (sum >= s) {
-            size = min(size, ed - st + 1);
-            sum -= arr[st++];
-        } else {
-            ed++;
-            if (ed < n) sum += arr[ed];
-        }
+    vector<int> arr;
+    arr.reserve(n);
+    for (int i = 0; i < n; i++) {
+        int foo;
+        cin >> foo;
+        arr.push_back(foo);
     }
 
-    if (size == n + 1) cout << 0;
-    else cout << size;
+    int st = 0, ed = 0;
+    int len = 100'001;
+    int sum = 0;
+
+    while (ed < n) {
+        sum += arr[ed];
+        while (sum >= s) {
+            len = min(len, ed - st + 1);
+            sum -= arr[st];
+            st++;
+        }
+        ed++;
+    }
+    
+    if (len == 100'001) cout << 0;
+    else cout << len;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
