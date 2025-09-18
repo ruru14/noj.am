@@ -9,10 +9,12 @@ using namespace std;
 class DisjointSet {
 private:
     vector<int> parent;
+    vector<int> rank;
 
 public:
     DisjointSet(int n) {
         parent.assign(n + 1, 0);
+        rank.assign(n + 1, 0);
         for (int i = 0; i <= n; i++) parent[i] = i;
     }
 
@@ -22,7 +24,17 @@ public:
     }
 
     void Union(int a, int b) {
-        parent[Find(a)] = Find(b);
+        int rootA = Find(a);
+        int rootB = Find(b);
+
+        if (rootA == rootB) return;
+
+        if (rank[rootA] > rank[rootB]) parent[rootB] = rootA;
+        else if (rank[rootA] < rank[rootB]) parent[rootA] = rootB;
+        else {
+            parent[rootA] = rootB;
+            rank[rootB]++;
+        }
     }
 
     bool IsSameSet(int a, int b) {
