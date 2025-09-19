@@ -11,19 +11,26 @@ int main() {
     int n, k;
     cin >> n >> k;
     vector<long long> weight(n), value(n);
-    vector<long long> dp(k + 1, 0);
+    for (int i = 0; i < n; i++) cin >> weight[i] >> value[i];
+
+    vector<vector<long long>> dp(n, vector<long long>(k + 1, 0));
 
     for (int i = 0; i < n; i++) {
-        cin >> weight[i] >> value[i];
+        for (int j = 0; j <= k; j++) {
+            if (i - 1 >= 0) dp[i][j] = max(dp[i][j], dp[i - 1][j]);
+            if (j - weight[i] >= 0)
+                if (i - 1 >= 0) dp[i][j] = max(dp[i][j], dp[i - 1][j - weight[i]] + value[i]);
+                else dp[i][j] = value[i];
+        }
     }
-
-    for (int item = 0; item < n; item++) {
+    cout << dp[n - 1][k];
+    /*for (int item = 0; item < n; item++) {
         for (int c = k; c >= weight[item]; c--) {
             dp[c] = max(dp[c], dp[c - weight[item]] + value[item]);
         }
     }
 
-    cout << dp[k];
+    cout << dp[k];*/
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
