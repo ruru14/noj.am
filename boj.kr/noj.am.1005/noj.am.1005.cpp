@@ -3,57 +3,45 @@
 
 #include <iostream>
 #include <vector>
-#include <queue>
 
 using namespace std;
 
+int n, k, w;
+vector<int> delay, dp;
+vector<vector<int>> graph;
+
+int func(int target) {
+    if (dp[target] != -1) return dp[target];
+
+    dp[target] = 0;
+    for (auto& nxt : graph[target]) {
+        dp[target] = max(dp[target], func(nxt));
+    }
+
+    return dp[target] = dp[target] + delay[target];
+}
+
 int main()
 {
-    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
     int tc;
     cin >> tc;
-
     while (tc--) {
-        int n, k, target;
         cin >> n >> k;
-        vector<int> delay(n + 1, 0);
-        vector<int> degree(n + 1, 0);
-        vector<vector<int>> graph(n + 1, vector<int>());
+        delay.assign(n + 1, 0);
+        dp.assign(n + 1, -1);
+        graph.assign(n + 1, vector<int>());
         for (int i = 1; i <= n; i++) cin >> delay[i];
         for (int i = 0; i < k; i++) {
-            int foo, bar;
-            cin >> foo >> bar;
-            graph[foo].push_back(bar);
-            degree[bar]++;
-        }
-        cin >> target;
-
-        vector<int> dp(n + 1, 0);
-
-        for (int i = 1; i <= n; i++) {
-            dp[i] = delay[i];
+            int from, to;
+            cin >> from >> to;
+            graph[to].push_back(from);
         }
 
-        queue<int> q;
-        vector<int> tpSort;
-        for (int i = 1; i <= n; i++) {
-            if (degree[i] == 0) q.push(i);
-        }
-
-        while (!q.empty()) {
-            int cur = q.front();
-            q.pop();
-            tpSort.push_back(cur);
-
-            for (auto& i : graph[cur]) {
-                dp[i] = max(dp[i], dp[cur] + delay[i]);
-                degree[i]--;
-                if (degree[i] == 0) q.push(i);
-            }
-        }
-        cout << dp[target] << "\n";
-
+        cin >> w;
+        cout << func(w) << "\n";
     }
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
